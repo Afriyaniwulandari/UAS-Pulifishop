@@ -27,5 +27,9 @@ def testimonial(request):
     template = loader.get_template('testimonial.html')
     return HttpResponse(template.render())
 
+def form(request):
+    template = loader.get_template('form.html')
+    return HttpResponse(template.render())
+
 
     
